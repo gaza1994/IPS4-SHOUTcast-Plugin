@@ -1,0 +1,6 @@
+{
+    "RadioStatsAjax": {
+        "type": "C",
+        "class": "\\IPS\\core\\modules\\front\\system\\ajax"
+    }
+}
