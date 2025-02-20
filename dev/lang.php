@@ -18,6 +18,8 @@ $lang = array(
     'gjradiostats_debug_desc' => 'Enable debug mode to log additional information - disable this when you have confirmed the plugin is working correctly',
     'gjradiostats_autoplay' => 'Autoplay',
     'gjradiostats_autoplay_desc' => 'Enable autoplay for the radio player',
+    'gjradiostats_playerstyle' => 'Player Style',
+    'gjradiostats_playerstyle_desc' => 'Select the style of the radio player',
 
     'gjradiostats_unknown' => 'Unknown'
 

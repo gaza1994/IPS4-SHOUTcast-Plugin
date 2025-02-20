@@ -5,8 +5,9 @@ $groups = \IPS\Member\Group::groups();
 $form->addTab('gjradiostats_tab_general');
 $form->AddSidebar('
     <h2 class="ipsFieldRow_section">Support</h2>
+    <p>If you have any issues, please open an issue on GitHub, I will try my best to respond.</p>
      <ul class="ipsList_reset ipsPad_half ">
-        <li class="ipsType_center"><a href="https://garethjohnstone.co.uk" target="_blank" rel="noreferrer" class="ipsButton  ipsButton_small ipsButton_light">Author</a> <a href="mailto:app-support@garethjohnstone.co.uk" target="_blank" rel="noreferrer" class="ipsButton ipsButton_small ipsButton_light">Email</a></li>
+        <li class="ipsType_center"><a href="https://garethjohnstone.co.uk" target="_blank" rel="noreferrer" class="ipsButton  ipsButton_small ipsButton_light">Website</a> <a href="https://github.com/gaza1994/IPS4-SHOUTcast-Plugin" target="_blank" rel="noreferrer" class="ipsButton ipsButton_small ipsButton_light">GitHub</a></li>
     </ul>');
 
 // Add a text input field for IP
@@ -23,6 +24,9 @@ $form->add( new \IPS\Helpers\Form\Number( 'gjradiostats_updatepolling', \IPS\Set
 
 // Setting for autoplay
 $form->add( new \IPS\Helpers\Form\Select( 'gjradiostats_autoplay', \IPS\Settings::i()->gjradiostats_autoplay ?: false, TRUE, array( 'options' => array( false => 'Off', true => 'On' ) ) ) );
+
+// Setting for player style
+$form->add( new \IPS\Helpers\Form\Select( 'gjradiostats_playerstyle', \IPS\Settings::i()->gjradiostats_playerstyle ?: false, TRUE, array( 'options' => array( 1 => 'Fixed', 2 => 'Inline' ) ) ) );
 
 // Add debug selectbox On or Off field
 $form->add( new \IPS\Helpers\Form\Select( 'gjradiostats_debug', \IPS\Settings::i()->gjradiostats_debug ?: 0, TRUE, array( 'options' => array( 0 => 'Off', 1 => 'On' ) ) ) );
