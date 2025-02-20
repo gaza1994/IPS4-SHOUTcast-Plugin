@@ -1,10 +1,10 @@
 {
-    "longversion": "100010",
-    "version": "1.0.1",
+    "longversion": "100000",
+    "version": "1.0.0",
     "released": "1740060545",
     "security": false,
     "severity": "none",
     "blockms": true,
-    "latestNewFeature": 9,
+    "latestNewFeature": 1,
     "updateurl": "https:\/\/github.com\/gaza1994\/IPS4-SHOUTcast-Plugin\/releases"
 }
