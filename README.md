@@ -11,7 +11,7 @@ This is an Invision Community 4 plugin to display SHOUTcast stats on your forum,
 - Under Site Features, click on Plugins
 - Upload the XML file downloaded from GitHub
 
-## How to confure it
+## How to configure it
 
 - Click the pencil icon next to the plugin
 - Fill in your SHOUTcast IP and Port number
