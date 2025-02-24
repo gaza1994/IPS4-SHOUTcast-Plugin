@@ -25,7 +25,7 @@ Note: In order for the audio player to function, your stream source MUST have a 
   - Open an issue on GitHub, I will try my best to respond.
 
 - Does this support IPS 5
-  - With IPS5 plugins are depricated, so no, this will not work - if time allows, i might re-write this as an application.
+  - With IPS5 plugins are depricated, so no, this will not work - I am however currently working on a v5 application - its almost finished, so watch this space :)
 
 - Can I have this in my own langauge?
   - Maybe? if you know how to do it, I'll accept a PR.
